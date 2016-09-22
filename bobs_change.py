@@ -35,7 +35,7 @@ def run_tests():
 def bobs_change(money):
 
     if money < 50:
-       print("Sorry Bob, you don't have enough money")
+       print("Sorry Bob, you don't have enough")
 
     elif money > 50:
         print(money - 50)
