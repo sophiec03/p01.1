@@ -39,6 +39,9 @@ def bobs_change(money):
 
     elif money > 50:
         print(money - 50)
+
+    elif money == 50:
+        print("you have exactly enough money!!")
         
 
 
